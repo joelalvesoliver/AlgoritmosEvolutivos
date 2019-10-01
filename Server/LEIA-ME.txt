@@ -1,0 +1,18 @@
+- inicia o prompt do anaconda
+
+- ir para a pasta do projeto com o comando:
+
+	* cd C:users\administrator\SERVER_PYTHON\servidor
+
+- inicializa o servidor flask
+	
+	* set FLASK_APP=SERVER.py
+
+- coloca o servidor para rodar
+	
+	* flask run -p 5003 -h (ipdaVM)
+	UFS: flask run -p 5003 -h 10.27.177.200
+	     flask run -p 5003 -h 192.168.1.5
+	     flask run -p 5003 -h 192.168.0.153	
+
+	flask run (rodar locallhost)
